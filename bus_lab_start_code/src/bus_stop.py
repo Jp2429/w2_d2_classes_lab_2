@@ -11,5 +11,5 @@ class BusStop:
 
     def clear(self):
         for person in self.q_length:
-            self.q_length.pop()
+            self.q_length.clear()
             
